@@ -1,7 +1,7 @@
 * check macro is defined instead of version, LibreSSL < 2.5 doesn't have SSL_CTRL_GET_SERVER_TMP_KEY
 *
---- src/network/ssl/qsslsocket_openssl.cpp.orig	2016-12-01 08:17:04 UTC
-+++ src/network/ssl/qsslsocket_openssl.cpp
+--- src/network/ssl/qsslsocket_opensslpre11.cpp.orig	2016-12-01 08:17:04 UTC
++++ src/network/ssl/qsslsocket_opensslpre11.cpp
 @@ -1587,13 +1587,13 @@ void QSslSocketBackendPrivate::continueH
      }
  #endif // OPENSSL_VERSION_NUMBER >= 0x1000100fL ...

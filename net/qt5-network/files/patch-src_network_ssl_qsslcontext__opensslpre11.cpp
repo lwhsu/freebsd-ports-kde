@@ -2,8 +2,8 @@
 * call the SSL_CTX_set1_groups function, which exists in LibreSSL as well as in 
 * OpenSSL and is what would be called through the macro 
 *
---- src/network/ssl/qsslcontext_openssl.cpp.orig	2016-12-01 08:17:04 UTC
-+++ src/network/ssl/qsslcontext_openssl.cpp
+--- src/network/ssl/qsslcontext_opensslpre11.cpp.orig	2016-12-01 08:17:04 UTC
++++ src/network/ssl/qsslcontext_opensslpre11.cpp
 @@ -350,12 +350,9 @@ init_context:
  #if OPENSSL_VERSION_NUMBER >= 0x10002000L && !defined(OPENSSL_NO_EC)
          // Set the curves to be used
