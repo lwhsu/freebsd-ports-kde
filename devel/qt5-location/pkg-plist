@@ -218,6 +218,8 @@
 %%QT_INCDIR%%/QtPositioning/QGeoCoordinate
 %%QT_INCDIR%%/QtPositioning/QGeoLocation
 %%QT_INCDIR%%/QtPositioning/QGeoPath
+%%QT_INCDIR%%/QtPositioning/QGeoPolygon
+%%QT_INCDIR%%/QtPositioning/QGeoPolygonPrivate
 %%QT_INCDIR%%/QtPositioning/QGeoPositionInfo
 %%QT_INCDIR%%/QtPositioning/QGeoPositionInfoSource
 %%QT_INCDIR%%/QtPositioning/QGeoPositionInfoSourceFactory
@@ -236,6 +238,7 @@
 %%QT_INCDIR%%/QtPositioning/qgeocoordinate.h
 %%QT_INCDIR%%/QtPositioning/qgeolocation.h
 %%QT_INCDIR%%/QtPositioning/qgeopath.h
+%%QT_INCDIR%%/QtPositioning/qgeopolygon.h
 %%QT_INCDIR%%/QtPositioning/qgeopositioninfo.h
 %%QT_INCDIR%%/QtPositioning/qgeopositioninfosource.h
 %%QT_INCDIR%%/QtPositioning/qgeopositioninfosourcefactory.h
