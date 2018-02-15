@@ -13,7 +13,7 @@ COMMENT=	Full-text search engine for Java
 
 LICENSE=	APACHE20
 
-CONFLICTS=	elasticsearch-[0-9]* elasticsearch5-[0-9]*
+CONFLICTS=	elasticsearch-[0-9]* elasticsearch5-[0-9]* elasticsearch6-[0-9]*
 
 USES=		cpe
 NO_ARCH=	yes
@@ -48,7 +48,7 @@ SUB_LIST=	SEARCHUSER=${SEARCHUSER} \
 		SEARCHGROUP=${SEARCHGROUP} \
 		PORTVERSION=${PORTVERSION}
 SUB_FILES=	pkg-message
-PLIST_SUB=	SEARCHUSER=${SEARCHUSER} \
+PLIST_SUB+=	SEARCHUSER=${SEARCHUSER} \
 		SEARCHGROUP=${SEARCHGROUP} \
 		LUCENEVER=${LUCENEVER} \
 		PORTVERSION=${PORTVERSION} \

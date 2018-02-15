@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	serialport
-PORTREVISION=	2
+PORTREVISION=	3
 CATEGORIES=	comms devel python
 
 MAINTAINER=	kde@FreeBSD.org

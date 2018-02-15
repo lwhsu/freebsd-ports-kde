@@ -38,8 +38,8 @@
     SUBDIR += chmlib
     SUBDIR += chord2html
     SUBDIR += cinnamon-translations
-    SUBDIR += clex
     SUBDIR += cldr-emoji-annotation
+    SUBDIR += clex
     SUBDIR += cloc
     SUBDIR += clpbar
     SUBDIR += cmatrix
@@ -234,8 +234,8 @@
     SUBDIR += kde4-l10n-ug
     SUBDIR += kde4-l10n-wa
     SUBDIR += kde4-xdg-env
-    SUBDIR += kdeedu4
-    SUBDIR += kdeutils4
+    SUBDIR += kdeedu-kde4
+    SUBDIR += kdeutils-kde4
     SUBDIR += kenny
     SUBDIR += kgeography
     SUBDIR += klettres
@@ -249,8 +249,10 @@
     SUBDIR += libeatmydata
     SUBDIR += libisocodes
     SUBDIR += libkdeedu
+    SUBDIR += liblxi
     SUBDIR += libmetalink
     SUBDIR += libpostal
+    SUBDIR += libpredict
     SUBDIR += libpri
     SUBDIR += libsupertone
     SUBDIR += libutf
@@ -262,6 +264,7 @@
     SUBDIR += loop
     SUBDIR += lv
     SUBDIR += lxde-common
+    SUBDIR += lxi-tools
     SUBDIR += magicpoint
     SUBDIR += man.el
     SUBDIR += mbuffer
@@ -373,6 +376,7 @@
     SUBDIR += phraze
     SUBDIR += pinfo
     SUBDIR += pipe
+    SUBDIR += pnpids
     SUBDIR += podsleuth
     SUBDIR += posixtestsuite
     SUBDIR += proxyper
@@ -396,7 +400,6 @@
     SUBDIR += py-qt4-demo
     SUBDIR += py-qt4-doc
     SUBDIR += py-qt5-demo
-    SUBDIR += py-qt5-doc
     SUBDIR += py-socli
     SUBDIR += py-spdx
     SUBDIR += py-spdx-lookup
@@ -436,6 +439,7 @@
     SUBDIR += rubygem-rabbit
     SUBDIR += rubygem-vpim
     SUBDIR += rump
+    SUBDIR += rumprun
     SUBDIR += saaghar
     SUBDIR += seabios
     SUBDIR += sent
@@ -466,6 +470,7 @@
     SUBDIR += tempcontrol
     SUBDIR += termatrix
     SUBDIR += teseq
+    SUBDIR += thefuck
     SUBDIR += timediff
     SUBDIR += tkcron
     SUBDIR += tkinfo

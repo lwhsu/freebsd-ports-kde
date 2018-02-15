@@ -39,6 +39,7 @@
     SUBDIR += dnscrypt-proxy
     SUBDIR += dnscrypt-wrapper
     SUBDIR += dnsdbck
+    SUBDIR += dnsdbq
     SUBDIR += dnsdist
     SUBDIR += dnsenum
     SUBDIR += dnsflood
@@ -62,7 +63,6 @@
     SUBDIR += doc
     SUBDIR += dq
     SUBDIR += drool
-    SUBDIR += dualserver
     SUBDIR += dynip
     SUBDIR += erlang-idna
     SUBDIR += ez-ipupdate
@@ -188,6 +188,7 @@
     SUBDIR += py-pycares
     SUBDIR += py-pydnstable
     SUBDIR += py-pywdns
+    SUBDIR += py-tld
     SUBDIR += py-tldextract
     SUBDIR += radns
     SUBDIR += rbldnsd

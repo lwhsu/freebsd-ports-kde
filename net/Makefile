@@ -1,4 +1,3 @@
-
 # $FreeBSD$
 #
 
@@ -56,6 +55,8 @@
     SUBDIR += boclient
     SUBDIR += boinc-client
     SUBDIR += boinc_curses
+    SUBDIR += bosh-bootloader
+    SUBDIR += bosh-cli
     SUBDIR += bounce
     SUBDIR += bsdec2-image-upload
     SUBDIR += bsdproxy
@@ -285,6 +286,9 @@
     SUBDIR += isc-dhcp43-client
     SUBDIR += isc-dhcp43-relay
     SUBDIR += isc-dhcp43-server
+    SUBDIR += isc-dhcp44-client
+    SUBDIR += isc-dhcp44-relay
+    SUBDIR += isc-dhcp44-server
     SUBDIR += istgt
     SUBDIR += jags
     SUBDIR += jakarta-commons-net
@@ -300,9 +304,9 @@
     SUBDIR += kafka
     SUBDIR += kafkacat
     SUBDIR += kamailio
-    SUBDIR += kdenetwork4
-    SUBDIR += kdenetwork4-filesharing
-    SUBDIR += kdenetwork4-strigi-analyzers
+    SUBDIR += kdenetwork-kde4
+    SUBDIR += kdenetwork-filesharing-kde4
+    SUBDIR += kdenetwork-strigi-analyzers-kde4
     SUBDIR += kea
     SUBDIR += kf5-kxmlrpcclient
     SUBDIR += kget
@@ -476,6 +480,7 @@
     SUBDIR += nifmon
     SUBDIR += nload
     SUBDIR += nmsg
+    SUBDIR += nncp
     SUBDIR += nocatsplash
     SUBDIR += norm
     SUBDIR += nph
@@ -513,6 +518,7 @@
     SUBDIR += openldap24-server
     SUBDIR += openmpi
     SUBDIR += openmpi2
+    SUBDIR += openmpi3
     SUBDIR += openmq
     SUBDIR += openmq-client
     SUBDIR += openntpd
@@ -1066,6 +1072,7 @@
     SUBDIR += py-s3cmd
     SUBDIR += py-s3transfer
     SUBDIR += py-shodan
+    SUBDIR += py-smart_open
     SUBDIR += py-smbpasswd
     SUBDIR += py-soap2py
     SUBDIR += py-soappy
@@ -1121,6 +1128,7 @@
     SUBDIR += rdapper
     SUBDIR += rdesktop
     SUBDIR += rdist6
+    SUBDIR += reaver
     SUBDIR += recvnet
     SUBDIR += redir
     SUBDIR += relayd
@@ -1169,7 +1177,6 @@
     SUBDIR += rubygem-fog-aliyun
     SUBDIR += rubygem-fog-atmos
     SUBDIR += rubygem-fog-aws
-    SUBDIR += rubygem-fog-aws0
     SUBDIR += rubygem-fog-aws1
     SUBDIR += rubygem-fog-azure
     SUBDIR += rubygem-fog-brightbox
@@ -1210,6 +1217,7 @@
     SUBDIR += rubygem-iproto
     SUBDIR += rubygem-lita-gems
     SUBDIR += rubygem-macaddr
+    SUBDIR += rubygem-mqtt
     SUBDIR += rubygem-net-ldap
     SUBDIR += rubygem-net-netrc
     SUBDIR += rubygem-net-ping
@@ -1371,7 +1379,6 @@
     SUBDIR += tcptestsuite
     SUBDIR += tcptrace
     SUBDIR += tcptraceroute
-    SUBDIR += tcptraceroute-devel
     SUBDIR += tcpview
     SUBDIR += tcpwatch
     SUBDIR += tcpxd
@@ -1392,8 +1399,8 @@
     SUBDIR += toonel
     SUBDIR += torsocks
     SUBDIR += traceroute
-    SUBDIR += traff
     SUBDIR += traefik
+    SUBDIR += traff
     SUBDIR += trafshow
     SUBDIR += trafshow3
     SUBDIR += tramp
@@ -1417,7 +1424,6 @@
     SUBDIR += unfs3
     SUBDIR += unison
     SUBDIR += unison-devel
-    SUBDIR += unison-nox11
     SUBDIR += unison232
     SUBDIR += unison240
     SUBDIR += unix2tcp

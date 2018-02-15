@@ -2,7 +2,7 @@
 
 PORTNAME=	pykdeuic4
 PORTVERSION=	${KDE4_VERSION}
-PORTREVISION=	2
+PORTREVISION=	3
 CATEGORIES=	devel kde kde-kde4 python
 PKGNAMEPREFIX=	${PYTHON_PKGNAMEPREFIX}
 DISTNAME=	pykde4-${PORTVERSION}
@@ -15,6 +15,7 @@ USE_KDE=	kdelibs automoc4 pykde4
 USE_QT4=	moc_build qmake_build rcc_build uic_build
 DISTINFO_FILE=	${.CURDIR:H:H}/devel/py-pykde4/distinfo
 
+NO_ARCH=	yes
 SHEBANG_FILES=	pykdeuic4.py
 
 WRKSRC=		${WRKDIR}/${DISTNAME}/tools/${PORTNAME}

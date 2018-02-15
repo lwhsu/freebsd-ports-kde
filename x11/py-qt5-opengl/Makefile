@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	opengl
-PORTREVISION=	2
+PORTREVISION=	3
 CATEGORIES=	x11 devel python
 
 MAINTAINER=	kde@FreeBSD.org

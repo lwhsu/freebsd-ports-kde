@@ -2,7 +2,7 @@
 
 PORTNAME=	kdeplasma-addons
 PORTVERSION=	${KDE4_VERSION}
-PORTREVISION=	5
+PORTREVISION=	6
 CATEGORIES=	deskutils kde kde-kde4
 
 MAINTAINER=	kde@FreeBSD.org
@@ -13,11 +13,9 @@ LIB_DEPENDS=	libqalculate.so:math/libqalculate \
 		libqca.so:devel/qca \
 		libqoauth.so:net/qoauth \
 		libqjson.so:devel/qjson
-BUILD_DEPENDS=	${LOCALBASE}/libdata/pkgconfig/eigen2.pc:math/eigen2
-
 CONFLICTS_INSTALL=	plasma-applet-icontasks-0.[89].*
 
-USES=		cmake:outsource kde:4 pkgconfig shared-mime-info tar:xz
+USES=		cmake:outsource eigen:2 kde:4 pkgconfig shared-mime-info tar:xz
 USE_KDE=	kdelibs libkexiv2 pimlibs workspace \
 		akonadi attica automoc4 qimageblitz soprano
 USE_QT4=	corelib dbus declarative gui network script sql webkit \

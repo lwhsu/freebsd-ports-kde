@@ -128,7 +128,7 @@
     SUBDIR += kde4-baseapps
     SUBDIR += kde4-runtime
     SUBDIR += kde4-workspace
-    SUBDIR += kdelibs4
+    SUBDIR += kdelibs-kde4
     SUBDIR += keybinder
     SUBDIR += keybinder-gtk3
     SUBDIR += keyboardcast
@@ -265,6 +265,7 @@
     SUBDIR += pixman
     SUBDIR += plasma-scriptengine-python
     SUBDIR += plasma-scriptengine-ruby
+    SUBDIR += polybar
     SUBDIR += presentproto
     SUBDIR += printproto
     SUBDIR += printscreen
@@ -281,6 +282,7 @@
     SUBDIR += qterminal
     SUBDIR += qterminal-l10n
     SUBDIR += qxkb
+    SUBDIR += radare-cutter
     SUBDIR += randrproto
     SUBDIR += recordproto
     SUBDIR += rendercheck
@@ -349,6 +351,8 @@
     SUBDIR += wmctrl
     SUBDIR += wmdrawer
     SUBDIR += wmmatrix
+    SUBDIR += wmutils-core
+    SUBDIR += wmutils-opt
     SUBDIR += wmxss
     SUBDIR += workrave
     SUBDIR += x11perf

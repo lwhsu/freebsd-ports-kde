@@ -2,8 +2,8 @@
 # $FreeBSD$
 
 PORTNAME=	sql
-PORTEPOCH=	1
 PORTREVISION=	1
+PORTEPOCH=	1
 CATEGORIES=	databases devel python
 
 MAINTAINER=	kde@FreeBSD.org

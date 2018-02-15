@@ -2,8 +2,8 @@
 # $FreeBSD$
 
 PORTNAME=	network
-PORTEPOCH=	1
 PORTREVISION=	1
+PORTEPOCH=	1
 CATEGORIES=	net devel python
 
 MAINTAINER=	kde@FreeBSD.org
