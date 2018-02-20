@@ -13,7 +13,7 @@
     SUBDIR += eflite
     SUBDIR += jovie
     SUBDIR += kaccessible
-    SUBDIR += kdeaccessibility4
+    SUBDIR += kdeaccessibility-kde4
     SUBDIR += kmag
     SUBDIR += kmousetool
     SUBDIR += kmouth
@@ -28,6 +28,7 @@
     SUBDIR += qt5-speech
     SUBDIR += redshift
     SUBDIR += rubygem-atk
+    SUBDIR += sct
     SUBDIR += speech-dispatcher
     SUBDIR += yasr
 

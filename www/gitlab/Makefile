@@ -2,9 +2,9 @@
 # $FreeBSD$
 
 PORTNAME=	gitlab
-PORTVERSION=	10.1.5
+PORTVERSION=	10.1.6
 DISTVERSIONPREFIX=	v
-PORTREVISION=	8
+PORTREVISION=	3
 CATEGORIES=	www devel
 
 MAINTAINER=	idefix@fechner.net
@@ -102,7 +102,7 @@ RUN_DEPENDS=	git>=2.14.1:devel/git \
 	rubygem-wikicloth>=0.8.1:textproc/rubygem-wikicloth \
 	rubygem-asciidoctor>=1.5.2:textproc/rubygem-asciidoctor \
 	rubygem-asciidoctor-plantuml>=0.0.7:textproc/rubygem-asciidoctor-plantuml \
-	rubygem-rouge>=2.0:textproc/rubygem-rouge \
+	rubygem-rouge2>=2.0:textproc/rubygem-rouge2 \
 	rubygem-truncato>=0.7.9:textproc/rubygem-truncato \
 	rubygem-bootstrap_form>=2.7.0:devel/rubygem-bootstrap_form \
 	rubygem-nokogiri>=1.8.1:textproc/rubygem-nokogiri  \
@@ -146,7 +146,7 @@ RUN_DEPENDS=	git>=2.14.1:devel/git \
 	rubygem-chronic_duration>=0.10.6:devel/rubygem-chronic_duration \
 	rubygem-webpack-rails>=0.9.10:www/rubygem-webpack-rails \
 	rubygem-rack-proxy>=0.6.0:www/rubygem-rack-proxy \
-	rubygem-sass-rails5>=5.0.6:textproc/rubygem-sass-rails5 \
+	rubygem-sass-rails-rails4>=5.0.6:textproc/rubygem-sass-rails-rails4 \
 	rubygem-uglifier>=2.7.2:www/rubygem-uglifier \
 	rubygem-addressable>=2.5.2:www/rubygem-addressable \
 	rubygem-bootstrap-sass>=3.3.0:www/rubygem-bootstrap-sass \

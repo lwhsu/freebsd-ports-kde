@@ -3,7 +3,8 @@
 
 PORTNAME=	qgis
 DISTVERSIONPREFIX=	final-
-DISTVERSION=	2_18_14
+DISTVERSION=	2_18_15
+PORTREVISION=	1
 CATEGORIES=	graphics geography
 
 MAINTAINER=	rhurlin@gwdg.de
@@ -19,7 +20,7 @@ LIB_DEPENDS=	libexpat.so:textproc/expat2 \
 		libproj.so:graphics/proj \
 		libqca.so:devel/qca \
 		libqjson.so:devel/qjson \
-		libqscintilla2.so:devel/qscintilla2 \
+		libqscintilla2_qt4.so:devel/qscintilla2 \
 		libqwt.so:x11-toolkits/qwt5 \
 		libspatialindex.so:devel/spatialindex \
 		libspatialite.so:databases/spatialite \
@@ -83,7 +84,7 @@ GRASS_CMAKE_ON=		-DWITH_GRASS7:BOOL=TRUE -DGRASS_PREFIX7=${LOCALBASE}/grass-7.2.
 GRASS_FORCE_MAKE_JOBS=	NO
 GRASS_CMAKE_OFF=	-DWITH_GRASS7:BOOL=FALSE
 
-#POSTGIS_USES=		pgsql
+POSTGIS_USES=		pgsql
 #POSTGIS_LIB_DEPENDS=	liblwgeom.so:databases/postgis22
 POSTGIS_CMAKE_ON=	-DWITH_POSTGRESQL:BOOL=TRUE
 POSTGIS_CMAKE_OFF=	-DWITH_POSTGRESQL:BOOL=FALSE
@@ -185,6 +186,8 @@ post-install:
 	${INSTALL_DATA} ${WRKSRC}/debian/${PORTNAME}-icon${SZ}x${SZ}.png \
 		${STAGEDIR}${PREFIX}/share/icons/hicolor/${SZ}x${SZ}/apps/${PORTNAME}.png
 .endfor
+
+post-install-TESTS-on:
 	${RM} /tmp/srs.db
 
 check:

@@ -294,6 +294,7 @@
     SUBDIR += kdbx-viewer
     SUBDIR += kedpm
     SUBDIR += keepass
+    SUBDIR += keepass-plugin-keepassrpc
     SUBDIR += keepassx
     SUBDIR += keepassx-devel
     SUBDIR += keepassx2
@@ -403,12 +404,12 @@
     SUBDIR += md4coll
     SUBDIR += md5coll
     SUBDIR += md5deep
-    SUBDIR += mdcrack
     SUBDIR += medusa
     SUBDIR += meek
     SUBDIR += metasploit
     SUBDIR += mhash
     SUBDIR += mindterm-binary
+    SUBDIR += minisign
     SUBDIR += monkeysphere
     SUBDIR += morphis
     SUBDIR += munge
@@ -418,6 +419,7 @@
     SUBDIR += ncrypt
     SUBDIR += netpgp
     SUBDIR += nettle
+    SUBDIR += nextcloud-passman
     SUBDIR += nextcloud-twofactor_totp
     SUBDIR += nextcloud-twofactor_u2f
     SUBDIR += ngrok
@@ -738,6 +740,7 @@
     SUBDIR += p5-dicewaregen
     SUBDIR += p5-openxpki
     SUBDIR += p5-openxpki-i18n
+    SUBDIR += p5-plog
     SUBDIR += pad
     SUBDIR += pam-modules
     SUBDIR += pam-mysql
@@ -837,6 +840,7 @@
     SUBDIR += pidgin-otr
     SUBDIR += pinentry
     SUBDIR += pinentry-curses
+    SUBDIR += pinentry-fltk
     SUBDIR += pinentry-gnome3
     SUBDIR += pinentry-gtk2
     SUBDIR += pinentry-qt4
@@ -853,7 +857,6 @@
     SUBDIR += please
     SUBDIR += polarssl13
     SUBDIR += poly1305aes
-    SUBDIR += pond
     SUBDIR += portsentry
     SUBDIR += ppars
     SUBDIR += proftpd-mod_clamav
@@ -914,6 +917,7 @@
     SUBDIR += py-hkdf
     SUBDIR += py-htpasswd
     SUBDIR += py-itsdangerous
+    SUBDIR += py-josepy
     SUBDIR += py-kerberos
     SUBDIR += py-keyczar
     SUBDIR += py-keyring
@@ -946,6 +950,7 @@
     SUBDIR += py-pyaes
     SUBDIR += py-pyaff4
     SUBDIR += py-pyaxo
+    SUBDIR += py-pyblake2
     SUBDIR += py-pyclamd
     SUBDIR += py-pycrypto
     SUBDIR += py-pycryptodome
@@ -964,6 +969,7 @@
     SUBDIR += py-python-openid
     SUBDIR += py-python-registry
     SUBDIR += py-python-social-auth
+    SUBDIR += py-python3-openid
     SUBDIR += py-rekall
     SUBDIR += py-rekall-core
     SUBDIR += py-requests-kerberos
@@ -1073,6 +1079,7 @@
     SUBDIR += rubygem-net-scp
     SUBDIR += rubygem-net-sftp
     SUBDIR += rubygem-net-ssh
+    SUBDIR += rubygem-net-ssh41
     SUBDIR += rubygem-net-ssh-gateway
     SUBDIR += rubygem-net-ssh-gateway1
     SUBDIR += rubygem-net-ssh-multi
@@ -1080,22 +1087,25 @@
     SUBDIR += rubygem-nexpose
     SUBDIR += rubygem-nmap-parser
     SUBDIR += rubygem-omniauth
+    SUBDIR += rubygem-omniauth14
     SUBDIR += rubygem-omniauth-bitbucket
     SUBDIR += rubygem-omniauth-cas3
     SUBDIR += rubygem-omniauth-gitlab
     SUBDIR += rubygem-omniauth-multipassword
     SUBDIR += rubygem-omniauth-oauth2-generic
     SUBDIR += rubygem-omniauth-saml
+    SUBDIR += rubygem-omniauth-saml17
     SUBDIR += rubygem-omniauth-shibboleth
+    SUBDIR += rubygem-omniauth-shibboleth12
     SUBDIR += rubygem-openssl
     SUBDIR += rubygem-openssl-ccm
-    SUBDIR += rubygem-openssl20
     SUBDIR += rubygem-openvas-omp
     SUBDIR += rubygem-origami
     SUBDIR += rubygem-pbkdf2-ruby
     SUBDIR += rubygem-pundit
     SUBDIR += rubygem-pyu-ruby-sasl
     SUBDIR += rubygem-rack-oauth2
+    SUBDIR += rubygem-rack-oauth212
     SUBDIR += rubygem-razorback-scriptNugget
     SUBDIR += rubygem-rbnacl
     SUBDIR += rubygem-rbnacl-libsodium
@@ -1183,6 +1193,7 @@
     SUBDIR += softether-devel
     SUBDIR += softhsm
     SUBDIR += softhsm2
+    SUBDIR += sops
     SUBDIR += spass
     SUBDIR += spike-proxy
     SUBDIR += spybye
@@ -1222,7 +1233,6 @@
     SUBDIR += swatch
     SUBDIR += switzerland
     SUBDIR += symbion-sslproxy
-    SUBDIR += tclgpg
     SUBDIR += tclsasl
     SUBDIR += tcpcrypt
     SUBDIR += testssl.sh
