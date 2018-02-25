@@ -173,7 +173,6 @@ share/aclocal/cmake.m4
 %%DATADIR%%/Help/generator/CodeLite.rst
 %%DATADIR%%/Help/generator/Eclipse CDT4.rst
 %%DATADIR%%/Help/generator/Green Hills MULTI.rst
-%%DATADIR%%/Help/generator/KDevelop3.rst
 %%DATADIR%%/Help/generator/Kate.rst
 %%DATADIR%%/Help/generator/MSYS Makefiles.rst
 %%DATADIR%%/Help/generator/MinGW Makefiles.rst
@@ -1406,7 +1405,6 @@ share/aclocal/cmake.m4
 %%DATADIR%%/Modules/AddFileDependencies.cmake
 %%DATADIR%%/Modules/AndroidTestUtilities.cmake
 %%DATADIR%%/Modules/AndroidTestUtilities/PushToAndroidDevice.cmake
-%%DATADIR%%/Modules/AutogenInfo.cmake.in
 %%DATADIR%%/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in
 %%DATADIR%%/Modules/BasicConfigVersion-ExactVersion.cmake.in
 %%DATADIR%%/Modules/BasicConfigVersion-SameMajorVersion.cmake.in
@@ -1473,7 +1471,6 @@ share/aclocal/cmake.m4
 %%DATADIR%%/Modules/CMakeFindEclipseCDT4.cmake
 %%DATADIR%%/Modules/CMakeFindFrameworks.cmake
 %%DATADIR%%/Modules/CMakeFindJavaCommon.cmake
-%%DATADIR%%/Modules/CMakeFindKDevelop3.cmake
 %%DATADIR%%/Modules/CMakeFindKate.cmake
 %%DATADIR%%/Modules/CMakeFindPackageMode.cmake
 %%DATADIR%%/Modules/CMakeFindWMake.cmake
