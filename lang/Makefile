@@ -150,7 +150,7 @@
     SUBDIR += jython
     SUBDIR += kawa
     SUBDIR += kf5-kross
-    SUBDIR += kturtle
+    SUBDIR += kturtle-kde4
     SUBDIR += lafontaine
     SUBDIR += lci
     SUBDIR += ldc
@@ -264,6 +264,7 @@
     SUBDIR += picoc
     SUBDIR += pocl
     SUBDIR += polyml
+    SUBDIR += ponyc
     SUBDIR += ptoc
     SUBDIR += pure
     SUBDIR += py-clojure_py
@@ -330,6 +331,7 @@
     SUBDIR += smlnj
     SUBDIR += snobol4
     SUBDIR += solidity
+    SUBDIR += spec.alpha
     SUBDIR += spidermonkey17
     SUBDIR += spidermonkey170
     SUBDIR += spidermonkey185

@@ -387,6 +387,7 @@
     SUBDIR += kibana5
     SUBDIR += kibana5-search-guard
     SUBDIR += kibana5-x-pack
+    SUBDIR += kibana6
     SUBDIR += kiss-templates
     SUBDIR += kmfl-european-latin
     SUBDIR += kmfl-khmer
@@ -398,7 +399,7 @@
     SUBDIR += kmfl-varamozhi-malayalam
     SUBDIR += kmflcomp
     SUBDIR += kn-aspell
-    SUBDIR += kompare
+    SUBDIR += kompare-kde4
     SUBDIR += kreport
     SUBDIR += ku-aspell
     SUBDIR += ky-aspell
@@ -416,6 +417,7 @@
     SUBDIR += libcue
     SUBDIR += libe-book
     SUBDIR += libebml
+    SUBDIR += libepubgen
     SUBDIR += libextractor
     SUBDIR += libexttextcat
     SUBDIR += libflate
@@ -424,7 +426,7 @@
     SUBDIR += libguess
     SUBDIR += libkmfl
     SUBDIR += libkolabxml
-    SUBDIR += libkomparediff2
+    SUBDIR += libkomparediff2-kde4
     SUBDIR += liblingoteach
     SUBDIR += liblrdf
     SUBDIR += libmrss
@@ -433,6 +435,7 @@
     SUBDIR += libnxml
     SUBDIR += libodfgen01
     SUBDIR += libparsifal
+    SUBDIR += libqxp
     SUBDIR += librevenge
     SUBDIR += libsass
     SUBDIR += libsoldout
@@ -1262,6 +1265,7 @@
     SUBDIR += pure-csv
     SUBDIR += pure-xml
     SUBDIR += py-Chameleon
+    SUBDIR += py-CommonMark
     SUBDIR += py-MarkupSafe
     SUBDIR += py-Tempita
     SUBDIR += py-acora
@@ -1296,6 +1300,7 @@
     SUBDIR += py-et_xmlfile
     SUBDIR += py-excelerator
     SUBDIR += py-feedparser
+    SUBDIR += py-gambit-elasticsearch
     SUBDIR += py-genshi
     SUBDIR += py-guess-language
     SUBDIR += py-hexdump

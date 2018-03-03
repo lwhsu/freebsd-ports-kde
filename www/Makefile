@@ -1814,6 +1814,7 @@
     SUBDIR += py-prewikka
     SUBDIR += py-puppetboard
     SUBDIR += py-puppetboard02
+    SUBDIR += py-puppetboard03
     SUBDIR += py-py-restclient
     SUBDIR += py-pySmartDL
     SUBDIR += py-pyjwt
@@ -2020,7 +2021,6 @@
     SUBDIR += rubygem-gollum-rugged_adapter
     SUBDIR += rubygem-gon
     SUBDIR += rubygem-gon61
-    SUBDIR += rubygem-gon-rails4
     SUBDIR += rubygem-hackpad-cli
     SUBDIR += rubygem-haml
     SUBDIR += rubygem-haml-coderay

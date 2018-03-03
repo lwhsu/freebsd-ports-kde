@@ -41,7 +41,7 @@
     SUBDIR += deforaos-player
     SUBDIR += devede
     SUBDIR += dirac
-    SUBDIR += dragon
+    SUBDIR += dragon-kde4
     SUBDIR += dtv-scan-tables
     SUBDIR += dumpmpeg
     SUBDIR += dv2jpg
@@ -157,6 +157,7 @@
     SUBDIR += gtk-youtube-viewer
     SUBDIR += gxine
     SUBDIR += handbrake
+    SUBDIR += harvid
     SUBDIR += imagination
     SUBDIR += iriverter
     SUBDIR += iso2mkv
