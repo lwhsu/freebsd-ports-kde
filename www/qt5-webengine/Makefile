@@ -75,6 +75,10 @@ QMAKE_CONFIGURE_ARGS=	-no-printing-and-pdf -proprietary-codecs -system-ffmpeg
 # dependencies correctly in the generated Makefiles, use the right target here.
 ALL_TARGET=	first
 
+#	 Opt out of bsd.qt.mks magic
+DISTINFO_FILE=	${.CURDIR}/distinfo
+QT5_VERSION=	5.9.4
+
 .include <bsd.port.pre.mk>
 
 .if ${OPSYS} == FreeBSD && ${OSVERSION} < 1100000
