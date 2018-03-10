@@ -4,7 +4,7 @@
 PORTNAME=	cmake
 # Remember to update devel/cmake-doc and devel/cmake-gui as well.
 DISTVERSION=	3.11.0
-DISTVERSIONSUFFIX=	-rc1
+DISTVERSIONSUFFIX=	-rc3
 CATEGORIES=	devel
 MASTER_SITES=	https://www.cmake.org/files/v${PORTVERSION:R}/
 
