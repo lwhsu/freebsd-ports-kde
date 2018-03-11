@@ -1,6 +1,11 @@
---- Modules/FindQt4.cmake.orig	2018-03-10 20:08:45 UTC
+--- Modules/FindQt4.cmake.orig	2018-03-09 14:16:46 UTC
 +++ Modules/FindQt4.cmake
-@@ -721,7 +721,7 @@
+@@ -718,10 +718,12 @@ if (QT_QMAKE_EXECUTABLE AND
+       NAMES accessible bearer codecs designer graphicssystems iconengines imageformats inputmethods qmltooling script sqldrivers
+       HINTS ${qt_cross_paths} ${qt_plugins_dir}
+       DOC "The location of the Qt plugins"
++      NO_SYSTEM_ENVIRONMENT_PATH
++      NO_CMAKE_SYSTEM_PATH
        NO_CMAKE_FIND_ROOT_PATH)
      # If no plugins were installed, set QT_PLUGINS_DIR to ${qt_plugins_dir}
      if(NOT QT_PLUGINS_DIR AND qt_plugins_dir)
@@ -9,7 +14,7 @@
      endif()
    endif ()
  
-@@ -748,7 +748,7 @@
+@@ -748,7 +750,7 @@ if (QT_QMAKE_EXECUTABLE AND
          NO_CMAKE_SYSTEM_PATH)
        # If the imports folder is empty, set QT_IMPORTS_DIR to ${qt_imports_dir}
        if(NOT QT_IMPORTS_DIR AND qt_imports_dir)
