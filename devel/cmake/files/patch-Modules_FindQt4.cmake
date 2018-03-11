@@ -9,15 +9,6 @@
      endif()
    endif ()
  
-@@ -740,7 +740,7 @@
-       foreach(qt_cross_path ${CMAKE_FIND_ROOT_PATH})
-         set(qt_cross_paths ${qt_cross_paths} "${qt_cross_path}/imports")
-       endforeach()
--      find_path(QT_IMPORTS_DIR NAMES Qt
-+      find_path(_fp_QT_IMPORTS_DIR NAMES Qt
-         HINTS ${qt_cross_paths} ${qt_imports_dir}
-         DOC "The location of the Qt imports"
-         NO_CMAKE_FIND_ROOT_PATH
 @@ -748,7 +748,7 @@
          NO_CMAKE_SYSTEM_PATH)
        # If the imports folder is empty, set QT_IMPORTS_DIR to ${qt_imports_dir}
