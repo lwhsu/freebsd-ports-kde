@@ -41,7 +41,7 @@
     SUBDIR += deforaos-player
     SUBDIR += devede
     SUBDIR += dirac
-    SUBDIR += dragon
+    SUBDIR += dragon-kde4
     SUBDIR += dtv-scan-tables
     SUBDIR += dumpmpeg
     SUBDIR += dv2jpg
@@ -157,6 +157,7 @@
     SUBDIR += gtk-youtube-viewer
     SUBDIR += gxine
     SUBDIR += handbrake
+    SUBDIR += harvid
     SUBDIR += imagination
     SUBDIR += iriverter
     SUBDIR += iso2mkv
@@ -277,6 +278,7 @@
     SUBDIR += mythtv-frontend
     SUBDIR += naludump
     SUBDIR += nordlicht
+    SUBDIR += nostt
     SUBDIR += obs-studio
     SUBDIR += oggvideotools
     SUBDIR += ogmrip
@@ -310,7 +312,6 @@
     SUBDIR += playd
     SUBDIR += plexmediaserver
     SUBDIR += plexmediaserver-plexpass
-    SUBDIR += plexpy
     SUBDIR += plexwatch
     SUBDIR += podcastdl
     SUBDIR += poe
@@ -372,6 +373,7 @@
     SUBDIR += rubygem-gstreamer
     SUBDIR += rubygem-paperclip-av-transcoder
     SUBDIR += rubygem-paperclip-av-transcoder-rails50
+    SUBDIR += rubygem-streamio-ffmpeg
     SUBDIR += sabbu
     SUBDIR += schroedinger
     SUBDIR += shotcut
@@ -394,6 +396,7 @@
     SUBDIR += swfdec-gnome
     SUBDIR += syncplay
     SUBDIR += szap-s2
+    SUBDIR += tautulli
     SUBDIR += tcmplex-panteltje
     SUBDIR += tivodecode
     SUBDIR += totem

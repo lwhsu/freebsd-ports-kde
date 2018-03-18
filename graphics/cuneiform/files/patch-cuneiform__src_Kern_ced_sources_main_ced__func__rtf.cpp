@@ -1,3 +1,8 @@
+Fix with modern Clang, e.g.
+
+cuneiform_src/Kern/ced/sources/main/ced_func_rtf.cpp:215:12: error: ordered comparison between pointer and zero ('CEDSection *' and 'int')
+        for (;sect>0;sect=sect->next)
+
 --- cuneiform_src/Kern/ced/sources/main/ced_func_rtf.cpp.orig	2018-03-11 17:08:11 UTC
 +++ cuneiform_src/Kern/ced/sources/main/ced_func_rtf.cpp
 @@ -212,7 +212,7 @@ Bool32	CEDPage::FormattedWriteRtf(const 

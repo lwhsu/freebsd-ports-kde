@@ -2,11 +2,11 @@
 # $FreeBSD$
 
 PORTNAME=	wine
-DISTVERSION=	3.1
+DISTVERSION=	3.4
 PORTEPOCH=	1
 CATEGORIES=	emulators
-MASTER_SITES=	SF/${PORTNAME}/Source \
-		http://ibiblio.org/pub/linux/system/emulators/wine/
+MASTER_SITES=	http://mirrors.ibiblio.org/wine/source/3.x/ \
+		SF/${PORTNAME}/Source
 PKGNAMESUFFIX?=	-devel
 DISTFILES=	${DISTNAME}${EXTRACT_SUFX}
 
@@ -18,7 +18,6 @@ LICENSE_COMB=	dual
 LICENSE_FILE=	${WRKSRC}/LICENSE
 
 ONLY_FOR_ARCHS=	amd64 i386
-STAGING_BROKEN=	Staging patchset still not available for this version
 
 BUILD_DEPENDS=	${LOCALBASE}/bin/flex:textproc/flex \
 		prelink:sysutils/prelink
@@ -60,7 +59,6 @@ OPTIONS_DEFINE=	CUPS DOCS DOSBOX GNUTLS HAL LDAP LIBXSLT MPG123 OPENAL STAGING V
 OPTIONS_DEFAULT=GNUTLS X11
 OPTIONS_SUB=	yes
 
-STAGING_DESC=	Include the Wine Staging patchset
 DOSBOX_DESC=	Use DOSBox to run MS-DOS programs
 LIBXSLT_DESC=	Use libxslt (only used by msxml3.dll)
 WINEMAKER_DESC=	Fully support winemaker (requires Perl)
@@ -146,7 +144,7 @@ PLIST_SUB+=		WINE32="" WINE64="@comment "
 .endif
 
 .if ${PORT_OPTIONS:MSTAGING}
-MASTER_SITES+=	https://github.com/compholio/wine-compholio-daily/archive/:cho
+MASTER_SITES+=	https://github.com/wine-staging/wine-staging/archive/:cho
 COMP_DIST=	v${DISTVERSION}.tar.gz
 DISTFILES+=	${COMP_DIST}:cho
 

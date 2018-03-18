@@ -1,0 +1,9 @@
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+NOTE: The following directories
+
+%%CPM_DIR%%
+%%INTEL_DIR%%
+
+contain Intel and/or platomav/CPUMicrocodes collections respectively
+if you have just built the port with corresponding CPM/INTEL option(s) enabled
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
